@@ -2,133 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>St. Saviour Public Higher Secondary School</title>
-  <meta name="description" content="St. Saviour Public Higher Secondary School — Empowering Students Since 1995" />
+  <meta name="description" content="Welcome to St. Saviour Public Higher Secondary School">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Loading Screen -->
   <div id="loader">
-    <img src="images/logo.png" alt="School Logo">
+    <img src="logo.png" alt="School Logo">
     <div class="school-name">St. Saviour Public Higher Secondary School</div>
     <div class="dots">Loading…</div>
   </div>
 
   <!-- Header -->
   <header>
-    <div class="container nav">
-      <div class="brand">
-        <img src="images/logo.png" alt="School Logo">
-        <div class="title">St. Saviour Public Higher Secondary School</div>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#academics">Academics</a></li>
-          <li><a href="#facilities">Facilities</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#events">Events</a></li>
-          <li><a href="#admission">Admission</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <a class="apply-btn" href="#admission">Apply</a>
-    </div>
+    <img src="logo.png" alt="School Logo" class="logo">
+    <h1>St. Saviour Public Higher Secondary School</h1>
   </header>
 
-  <!-- Hero -->
-  <section class="hero">
-    <div class="container content">
-      <h1 class="motto">Learning Today, Leading Tomorrow</h1>
-      <p class="tag">Empowering Students Since 1995</p>
-      <a class="cta" href="#admission">Apply for Admission</a>
-    </div>
-    <div class="ribbon">Bhopal · MP Board · CBSE Pattern (I–VIII)</div>
-  </section>
-
-  <!-- About -->
-  <section id="about">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>St. Saviour Public Higher Secondary School, established in 1995, is committed to nurturing confident, compassionate and capable learners. Under the guidance of our Principal Mrs. (Smt.) Sudha Gupta, we focus on discipline, values and holistic growth.</p>
-    </div>
-  </section>
-
-  <!-- Academics -->
-  <section id="academics">
-    <div class="container">
-      <h2>Academics</h2>
-      <ul>
-        <li>Classes I–VIII: CBSE pattern</li>
-        <li>Classes IX–XII: MP Board</li>
-        <li>Streams: Science & Commerce</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Gallery -->
-  <section id="gallery">
-    <div class="container">
-      <h2>Gallery</h2>
-      <div class="slider" data-slider="gallery">
-        <div class="slide active"><img src="images/gallery1.jpg" alt=""></div>
-        <div class="slide"><img src="images/gallery2.jpg" alt=""></div>
-        <div class="slide"><img src="images/gallery3.jpg" alt=""></div>
-        <div class="nav">
-          <button data-prev>‹</button>
-          <button data-next>›</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Events -->
+  <!-- Events Section -->
   <section id="events">
-    <div class="container">
-      <h2>Events</h2>
-      <div class="slider" data-slider="events">
-        <div class="slide active"><img src="images/event1.jpg" alt=""></div>
-        <div class="slide"><img src="images/event2.jpg" alt=""></div>
-        <div class="slide"><img src="images/event3.jpg" alt=""></div>
-        <div class="nav">
-          <button data-prev>‹</button>
-          <button data-next>›</button>
-        </div>
-      </div>
+    <h2>Our Events</h2>
+    <div class="gallery">
+      <img src="event1.jpg" alt="Event 1">
+      <img src="event2.jpg" alt="Event 2">
+      <img src="event3.jpg" alt="Event 3">
     </div>
   </section>
 
-  <!-- Admission Form -->
-  <section id="admission">
-    <div class="container">
-      <h2>Online Admission Form</h2>
-      <form id="admissionForm" action="https://formspree.io/f/REPLACE_YOUR_ID" method="POST">
-        <input type="text" name="Student Name" placeholder="Student Name" required>
-        <input type="text" name="Class Applied For" placeholder="Class Applied For" required>
-        <input type="tel" name="Phone" placeholder="Phone" required>
-        <input type="email" name="Email" placeholder="Email" required>
-        <textarea name="Address" placeholder="Address" required></textarea>
-        <button type="submit" class="btn">Submit</button>
-        <div id="formSuccess" class="success">Thank you for applying! We will contact you soon.</div>
-      </form>
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="gallery2.jpg" alt="Gallery 2">
+      <img src="gallery3.jpg" alt="Gallery 3">
     </div>
   </section>
-
-  <!-- Contact -->
-  <section id="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <p><strong>Address:</strong> MIG-H-16, Teela Jamalpura Rd, Shahjahanabad, Bhopal, MP 462001</p>
-      <p><strong>Phone:</strong> +91 99811 85401</p>
-      <p><strong>Email:</strong> st.saviourpublichighschool@gmail.com</p>
-      <iframe class="map" src="https://www.google.com/maps?q=MIG-H-16%20Teela%20Jamalpura%20Rd%20Bhopal&output=embed"></iframe>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">© <span id="yr"></span> St. Saviour Public Higher Secondary School</div>
-  </footer>
 
   <script src="script.js"></script>
 </body>
