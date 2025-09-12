@@ -156,3 +156,41 @@ header h1 {
     transform: translateY(0); 
   }
 }
+/* Facilities Section */
+#facilities {
+  padding: 40px;
+  background: #eef5ff;
+  text-align: center;
+}
+
+.facilities-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.facility {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 150px;
+  transition: transform 0.3s;
+}
+
+.facility:hover {
+  transform: translateY(-5px);
+}
+
+.facility img {
+  width: 70px;
+  height: 70px;
+}
+
+.facility h3 {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #004aad;
+}
