@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admission Form - St. Saviour Public Higher Secondary School</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Admission Form</h1>
+  </header>
+
+  <section id="form">
+    <form action="https://formsubmit.co/st.saviourpublichighschool@gmail.com" method="POST">
+
+      <!-- Hidden settings -->
+      <input type="hidden" name="_subject" value="New Admission Application">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" value="thankyou.html">
+
+      <label>Student Name:</label>
+      <input type="text" name="Student Name" required>
+
+      <label>Class Applying For:</label>
+      <select name="Class" required>
+        <option value="1">Class 1</option>
+        <option value="2">Class 2</option>
+        <option value="3">Class 3</option>
+        <option value="4">Class 4</option>
+        <option value="5">Class 5</option>
+        <option value="6">Class 6</option>
+        <option value="7">Class 7</option>
+        <option value="8">Class 8</option>
+        <option value="11-Science">Class 11 (Science)</option>
+        <option value="11-Commerce">Class 11 (Commerce)</option>
+      </select>
+
+      <label>Parent's Name:</label>
+      <input type="text" name="Parent Name" required>
+
+      <label>Phone Number:</label>
+      <input type="tel" name="Phone" required>
+
+      <label>Email Address:</label>
+      <input type="email" name="Email" required>
+
+      <label>Address:</label>
+      <textarea name="Address" required></textarea>
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 St. Saviour Public Higher Secondary School</p>
+  </footer>
+
+</body>
+</html>
