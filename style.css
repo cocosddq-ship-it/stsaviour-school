@@ -138,3 +138,28 @@ footer {
 .active, .dot:hover {
   background-color: #004aad;
 }
+/* Principal Section */
+#principal {
+  padding: 40px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.principal-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.principal-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 4px solid #004aad;
+}
+
+.principal-message {
+  max-width: 600px;
+}
