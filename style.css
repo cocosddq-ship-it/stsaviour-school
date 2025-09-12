@@ -42,7 +42,8 @@ h2 {
 
 .mySlides img {
   width: 100%;
-  height: 380px;   /* Optimized height */
+  height: 280px;   /* Optimized smaller height */
+  max-height: 280px;
   object-fit: cover;
 }
 
@@ -120,8 +121,8 @@ form button:hover { background: #003080; }
 }
 
 .principal-photo {
-  width: 140px;   /* Optimized size */
-  height: 140px;
+  width: 120px;   /* Optimized smaller size */
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 15px;
